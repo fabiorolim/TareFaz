@@ -54,8 +54,7 @@
 
 ```json
 {
-  "descrição": "Task Test",
-  "usuario": "user_id"
+  "descrição": "Task Test"
 }
 ```
 
@@ -80,8 +79,7 @@
 ```json
 {
   "descrição": "Atualiza tarefa",
-  "feita": true,
-  "usuario": "usuario_id"
+  "feita": true
 }
 ```
 
