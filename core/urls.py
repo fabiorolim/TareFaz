@@ -10,5 +10,5 @@ router.register('tarefas', TarefasViewSet, basename='tarefa')
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('auth/login/', views.obtain_auth_token)
+    path('auth/login/', views.ObtainAuthToken.as_view())
 ]
